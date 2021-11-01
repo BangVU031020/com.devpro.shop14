@@ -1,0 +1,8 @@
+/*-------------/Xử lý cho file blog.html /---------------*/
+.card {
+	background: rgb(11, 12, 42);
+	color: #eee;
+}
+.card .card-body h4{
+	color: #2eca6a !important;
+}

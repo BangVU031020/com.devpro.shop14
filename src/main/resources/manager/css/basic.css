@@ -1,0 +1,67 @@
+﻿/*Các xử lí định dạng cho /basic/basic.html*/
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+	background: #eef;
+	color: #333;
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+}
+table{
+	width:100%;
+		
+}
+th,td{
+	padding: 10px 5px;
+	
+}
+th{
+	background: #555;
+	color: #fff;
+	text-transform: uppercase;
+}
+.lc{
+	text-align: right;
+	font-weight: 700;
+	
+}
+
+form{
+	
+	
+}
+input, button{
+	padding: 10px 5px;
+	border-radius: 5px;
+	border: 1px solid #ddd;
+}
+
+input:focus, button:focus{
+	border: 1px solid #55f;
+	box-shadow: 0 0 10px #88f;
+}
+
+a{
+	text-decoration: none;
+	
+}
+a:hover{
+	font-weight: 600;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

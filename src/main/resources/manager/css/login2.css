@@ -1,0 +1,51 @@
+﻿/*Các xử lí định dạng cho /basic/login.html*/
+
+@import url('basic.css');
+@import url('all.css');
+@import url('contents.css');
+
+
+.loginview{
+	height: auto;
+	background: #eee;
+	box-shadow: 5px 5px 10px #555;/*Đổ bóng*/
+	border-radius: 10px;/*Bo góc*/
+}
+.loginview .title{
+	background: #555;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	.loginview label{
+		text-align: left !important;
+		font-weight:700;
+	}
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.loginview label{
+		text-align: left !important;
+		font-weight:700;
+	}
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	
+}

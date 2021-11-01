@@ -1,0 +1,83 @@
+﻿/* các xử lý đinh dạng cho login.html*/
+
+@import url('basic.css');
+
+@import url('all.css');
+/************************************************/
+.logo{
+	height: 10vh;
+}
+.acc{
+	height: 10vh;
+}
+.acc h1{
+	font-size: 18px !important;
+}
+.acc a{
+	font-size: 16px !important;
+	color: #fff;
+}
+.acc .user{
+	font-size: 50px;
+}
+.acc .out{
+	font-size: 50px;
+	color: red;
+}
+
+/************************************************/
+.menu{
+	height: auto
+}
+.accordion{
+	font-size: 15px !important;
+}
+.view{
+	height: auto;
+}
+.view .title{
+	
+}
+
+.tblview{
+	border-top: 1px solid #ddd !important;
+	border-left: 1px solid #ddd !important;
+	font-size: 13px;
+}
+img{
+	width: 100px;
+	height: 100px;
+}
+/************************************************/
+.footer{
+	padding: 3vh 0;
+	text-align: center;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	.userview label{
+		text-align: left !important;
+		font-weight: 700;
+	}
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	
+}
